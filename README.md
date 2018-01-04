@@ -1,12 +1,12 @@
 ## Docker based HUGO static site engine
 
-> Docker based container image of the [HUGO](http://gohugo.io) static site generator. Provides a quick way to develop with the HUGO platform.
+> Docker based image of the [HUGO](http://gohugo.io) static site generator. Provides a quick way to develop on the HUGO platform.
 
 More about Hugo: http://www.gohugo.io/
 
 I uses Hugo for my personal blog [joshuabradley.io](https://joshuabradley.io/). The image is  basically to fulfill my automated publishing process, but you're welcome to source via github.
 
-## Running
+### Running
 
 This is a simplistic example of how to call the hugo executable:
 
@@ -32,7 +32,7 @@ Then we can call hugo like this:
     # Generate public files and exit
     myhugo --theme=hyde --baseUrl=http://192.168.59.103 -s ./site
 
-## Build your own
+### Build your own
 
 To build your own image, do this:
 
