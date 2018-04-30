@@ -10,7 +10,7 @@ LABEL maintainer "Joshua Bradley <josh@joshuabradley-io>"
 #       org.label-schema.vcs-ref=$VCS_REF \
 #       org.label-schema.schema-version="1.0.0-rc1"
 
-ENV HUGO_VERSION 0.37.1
+ENV HUGO_VERSION 0.40.1
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
